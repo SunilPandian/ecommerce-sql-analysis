@@ -160,3 +160,8 @@ This project demonstrates strong capabilities in:
 
 
 
+## 📊 Dashboard Preview
+![Dashboard](docs/dashboard.png)
+
+
+\---
