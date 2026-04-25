@@ -74,17 +74,17 @@ This project uses the **Olist E-commerce Dataset** (Brazilian marketplace data).
 
 ## 📁 Project Structure
 
-sql/
-├── schema.sql
-├── data_import.sql
-├── data_cleaning.sql
-├── kpi_queries.sql
+  sql/
+  ├── schema.sql
+  ├── data_import.sql
+  ├── data_cleaning.sql
+  ├── kpi_queries.sql
 
-docs/
-├── dashboard.png
+  docs/
+  ├── dashboard.png
 
-powerbi/
-├── E-Commerce.pbix
+  powerbi/
+  ├── E-Commerce.pbix
 
 
 ---
