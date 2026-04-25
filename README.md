@@ -86,8 +86,6 @@ docs/
 powerbi/
 ├── E-Commerce.pbix
 
-README.md
-
 
 ---
 
