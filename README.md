@@ -1,167 +1,128 @@
 # 📊 E-Commerce Sales Analysis (SQL + Power BI)
 
+## 🔍 Business Problem
+E-commerce businesses generate large volumes of transactional data.  
+The goal of this project is to analyze sales, customer behavior, and product performance to answer key business questions:
 
-
-## 🔍 Project Overview
-
-
-
-This project analyzes a real-world multi-table e-commerce dataset to uncover insights related to sales performance, customer behavior, and product trends.
-
-
-
-The analysis was performed using \*\*MySQL\*\*, and an interactive dashboard was built using \*\*Power BI\*\*.
-
-
+- What drives revenue growth?
+- Who are the most valuable customers?
+- Which products and categories perform best?
+- How can business improve profitability?
 
 ---
-
-
 
 ## 🧱 Dataset
+This project uses the **Olist E-commerce Dataset** (Brazilian marketplace data).
 
-
-
-The dataset consists of multiple relational tables:
-
-
-
-* Customers
-
-* Orders
-
-* Order Items
-
-* Products
-
-* Payments
-
-* Reviews
-
-
+### Tables Used:
+- Customers  
+- Orders  
+- Order Items  
+- Products  
+- Payments  
+- Reviews  
 
 ---
 
+## ⚙️ Data Preparation & Modeling
 
-
-## ⚙️ Key Steps
-
-
-
-### 🔹 Data Cleaning
-
-
-
-* Handled missing values using `NULLIF` and `COALESCE`
-
-* Fixed inconsistent datetime formats
-
-* Resolved corrupted records in review data
-
-
-
-### 🔹 Data Modeling
-
-
-
-* Built relationships using JOINs
-
-* Created a consolidated analytical view (`sales\_data`)
-
-
-
-### 🔹 SQL Analysis
-
-
-
-* Revenue calculation
-
-* Monthly sales trends
-
-* Customer segmentation using `CASE WHEN`
-
-* Top customers using window functions (`RANK()`)
-
-
+- Cleaned missing values using `COALESCE` and `NULLIF`
+- Standardized datetime formats
+- Built a consolidated analytical view: `sales_data`
+- Joined multiple tables to create a **single source of truth for analysis**
 
 ---
 
+## 🧠 Key Analysis Performed
 
+### 🔹 Revenue Analysis
+- Total Revenue
+- Monthly Revenue Trends
+- Revenue by Product Category
 
-## 📊 Key Insights
+### 🔹 Customer Analysis
+- Customer segmentation (High / Medium / Low value)
+- Top customers using window functions
+- Spending behavior patterns
 
+### 🔹 Product Performance
+- Best-selling categories
+- Revenue contribution by category
 
-
-* Identified monthly revenue growth trends
-
-* Highlighted top-performing product categories
-
-* Segmented customers based on spending behavior
-
-* Detected inconsistencies in payment records
-
-
-
----
-
-
-
-## 🛠️ Tools Used
-
-
-
-* MySQL
-
-* Power BI
-
-* Git & GitHub
-
-
+### 🔹 Order Metrics
+- Total Orders
+- Average Order Value (AOV)
 
 ---
 
+## 📊 Key Business Insights
 
+- A small percentage of customers contribute a large share of revenue  
+- Certain product categories dominate revenue generation  
+- Monthly revenue trends reveal growth patterns and seasonality  
+- Average Order Value reflects customer purchasing behavior  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- SQL (MySQL)  
+- Power BI  
+- GitHub  
+
+---
 
 ## 📁 Project Structure
 
+sql/
+├── schema.sql
+├── data_import.sql
+├── data_cleaning.sql
+├── kpi_queries.sql
 
+docs/
+├── dashboard.png
 
-* `sql/` → All SQL scripts
+powerbi/
+├── E-Commerce.pbix
 
-* `docs/` → Dashboard screenshots
-
-* `README.md` → Project documentation
-
+README.md
 
 
 ---
 
+## 📈 Dashboard
 
+The Power BI dashboard includes:
+
+- KPI Cards (Revenue, Orders, AOV)
+- Monthly Revenue Trend
+- Sales by Category
+- Customer Segmentation
+- Regional Sales Distribution
+
+---
 
 ## 🚀 Outcome
 
+This project demonstrates:
 
-
-This project demonstrates strong capabilities in:
-
-
-
-* Advanced SQL (Joins, Window Functions, CTEs)
-
-* Data Cleaning \& Transformation
-
-* Data Modeling
-
-* Business Intelligence \& Dashboarding
-
-
+- Strong SQL skills (Joins, Window Functions)
+- Data cleaning and transformation
+- Business insight generation
+- End-to-end data analysis workflow
 
 ---
 
+## 🔮 Future Improvements
 
-
-## 📊 Dashboard Preview
-![Dashboard](docs/dashboard.png)
-
+- Customer retention analysis  
+- Cohort analysis  
+- Predictive analytics  
 
 ---
+
+## 🙌 Author
+
+Sunil Pandian  
+📧 harleykingsunil@gmail.com  
