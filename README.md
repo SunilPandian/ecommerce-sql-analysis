@@ -1,8 +1,8 @@
-\# 📊 E-Commerce Sales Analysis (SQL + Power BI)
+# 📊 E-Commerce Sales Analysis (SQL + Power BI)
 
 
 
-\## 🔍 Project Overview
+## 🔍 Project Overview
 
 
 
@@ -14,11 +14,11 @@ The analysis was performed using \*\*MySQL\*\*, and an interactive dashboard was
 
 
 
-\---
+---
 
 
 
-\## 🧱 Dataset
+## 🧱 Dataset
 
 
 
@@ -26,119 +26,119 @@ The dataset consists of multiple relational tables:
 
 
 
-\* Customers
+* Customers
 
-\* Orders
+* Orders
 
-\* Order Items
+* Order Items
 
-\* Products
+* Products
 
-\* Payments
+* Payments
 
-\* Reviews
+* Reviews
 
 
 
-\---
+---
 
 
 
-\## ⚙️ Key Steps
+## ⚙️ Key Steps
 
 
 
-\### 🔹 Data Cleaning
+### 🔹 Data Cleaning
 
 
 
-\* Handled missing values using `NULLIF` and `COALESCE`
+* Handled missing values using `NULLIF` and `COALESCE`
 
-\* Fixed inconsistent datetime formats
+* Fixed inconsistent datetime formats
 
-\* Resolved corrupted records in review data
+* Resolved corrupted records in review data
 
 
 
-\### 🔹 Data Modeling
+### 🔹 Data Modeling
 
 
 
-\* Built relationships using JOINs
+* Built relationships using JOINs
 
-\* Created a consolidated analytical view (`sales\_data`)
+* Created a consolidated analytical view (`sales\_data`)
 
 
 
-\### 🔹 SQL Analysis
+### 🔹 SQL Analysis
 
 
 
-\* Revenue calculation
+* Revenue calculation
 
-\* Monthly sales trends
+* Monthly sales trends
 
-\* Customer segmentation using `CASE WHEN`
+* Customer segmentation using `CASE WHEN`
 
-\* Top customers using window functions (`RANK()`)
+* Top customers using window functions (`RANK()`)
 
 
 
-\---
+---
 
 
 
-\## 📊 Key Insights
+## 📊 Key Insights
 
 
 
-\* Identified monthly revenue growth trends
+* Identified monthly revenue growth trends
 
-\* Highlighted top-performing product categories
+* Highlighted top-performing product categories
 
-\* Segmented customers based on spending behavior
+* Segmented customers based on spending behavior
 
-\* Detected inconsistencies in payment records
+* Detected inconsistencies in payment records
 
 
 
-\---
+---
 
 
 
-\## 🛠️ Tools Used
+## 🛠️ Tools Used
 
 
 
-\* MySQL
+* MySQL
 
-\* Power BI
+* Power BI
 
-\* Git \& GitHub
+* Git & GitHub
 
 
 
-\---
+---
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
-\* `sql/` → All SQL scripts
+* `sql/` → All SQL scripts
 
-\* `docs/` → Dashboard screenshots
+* `docs/` → Dashboard screenshots
 
-\* `README.md` → Project documentation
+* `README.md` → Project documentation
 
 
 
-\---
+---
 
 
 
-\## 🚀 Outcome
+## 🚀 Outcome
 
 
 
@@ -146,17 +146,17 @@ This project demonstrates strong capabilities in:
 
 
 
-\* Advanced SQL (Joins, Window Functions, CTEs)
+* Advanced SQL (Joins, Window Functions, CTEs)
 
-\* Data Cleaning \& Transformation
+* Data Cleaning \& Transformation
 
-\* Data Modeling
+* Data Modeling
 
-\* Business Intelligence \& Dashboarding
+* Business Intelligence \& Dashboarding
 
 
 
-\---
+---
 
 
 
@@ -164,4 +164,4 @@ This project demonstrates strong capabilities in:
 ![Dashboard](docs/dashboard.png)
 
 
-\---
+---
