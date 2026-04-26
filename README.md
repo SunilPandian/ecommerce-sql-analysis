@@ -9,6 +9,8 @@ The goal of this project is to analyze sales, customer behavior, and product per
 - Which products and categories perform best?
 - How can business improve profitability?
 
+This project simulates how a Data Analyst would analyze e-commerce data to support business decisions.
+
 ---
 
 ## 🧱 Dataset
@@ -36,39 +38,42 @@ This project uses the **Olist E-commerce Dataset** (Brazilian marketplace data).
 ## 🧠 Key Analysis Performed
 
 ### 🔹 Revenue Analysis
-- Total Revenue
-- Monthly Revenue Trends
-- Revenue by Product Category
+- Total Revenue  
+- Monthly Revenue Trends  
+- Revenue by Product Category  
 
 ### 🔹 Customer Analysis
-- Customer segmentation (High / Medium / Low value)
-- Top customers using window functions
-- Spending behavior patterns
+- Customer segmentation (High / Medium / Low value)  
+- Customer Lifetime Value (CLTV)  
+- Repeat customer identification  
+- Revenue contribution analysis (Pareto principle)  
 
 ### 🔹 Product Performance
-- Best-selling categories
-- Revenue contribution by category
+- Best-performing product categories  
+- Revenue contribution by category  
 
 ### 🔹 Order Metrics
-- Total Orders
-- Average Order Value (AOV)
+- Total Orders  
+- Average Order Value (AOV)  
+- Order frequency and purchase behavior  
 
 ---
 
 ## 📊 Key Business Insights
 
-- A small percentage of customers contribute a large share of revenue  
-- Certain product categories dominate revenue generation  
-- Monthly revenue trends reveal growth patterns and seasonality  
-- Average Order Value reflects customer purchasing behavior  
+- Top customers contribute a significant share of total revenue (Pareto effect)  
+- High-value customers are key drivers of profitability  
+- Revenue is concentrated in a few product categories  
+- Monthly trends indicate seasonality and growth opportunities  
+- AOV highlights opportunities for upselling and cross-selling  
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- SQL (MySQL)  
-- Power BI  
-- GitHub  
+- **SQL (MySQL)** → Data cleaning, transformation, advanced analysis  
+- **Power BI** → Dashboard & visualization  
+- **GitHub** → Version control  
 
 ---
 
@@ -76,50 +81,52 @@ This project uses the **Olist E-commerce Dataset** (Brazilian marketplace data).
 
 ```
 sql/
- ├── schema.sql
- ├── data_import.sql
- ├── data_cleaning.sql
- ├── kpi_queries.sql
+├── schema.sql
+├── data_import.sql
+├── data_cleaning.sql
+├── kpi_queries.sql
+├── advanced_analysis.sql
 
 docs/
- ├── dashboard.png
+├── dashboard.png
 
 powerbi/
- ├── E-Commerce.pbix
+├── E-Commerce.pbix
 
 README.md
+insights.md
 
 ```
+
 ---
 
 ## 📈 Dashboard
 
 The Power BI dashboard includes:
 
-- KPI Cards (Revenue, Orders, AOV)
-- Monthly Revenue Trend
-- Sales by Category
-- Customer Segmentation
-- Regional Sales Distribution
+- KPI Cards (Revenue, Orders, AOV)  
+- Monthly Revenue Trend  
+- Sales by Category  
+- Customer Segmentation  
+- Regional Sales Distribution  
 
 ---
 
 ## 🚀 Outcome
 
-This project demonstrates:
-
-- Strong SQL skills (Joins, Window Functions)
-- Data cleaning and transformation
-- Business insight generation
-- End-to-end data analysis workflow
+- Built an end-to-end data analysis pipeline using SQL and Power BI  
+- Applied advanced SQL techniques (Joins, Window Functions, Aggregations)  
+- Transformed raw data into structured analytical datasets  
+- Generated actionable business insights for decision-making  
 
 ---
 
 ## 🔮 Future Improvements
 
-- Customer retention analysis  
+- Customer retention & churn analysis  
 - Cohort analysis  
 - Predictive analytics  
+- Real-time dashboard integration  
 
 ---
 
@@ -127,3 +134,5 @@ This project demonstrates:
 
 Sunil Pandian  
 📧 harleykingsunil@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/sunil-pandian-80b97427b/  
+💻 GitHub: https://github.com/SunilPandian  
